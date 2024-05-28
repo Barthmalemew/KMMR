@@ -7,7 +7,7 @@
 export async function fetchMoodImage(mood) {
     try {
         // Fetch the mood image path from the backend using the provided mood
-        const response = await fetch(`http://localhost:3000/?mood=${mood}`);
+        const response = await fetch(`/api/image?mood=${mood}`);
 
         // Check if the network response is ok
         if (!response.ok) {
@@ -18,7 +18,7 @@ export async function fetchMoodImage(mood) {
         const data = await response.json();
 
         // Return the mood image path if available, otherwise return null
-        return data.imagePath ? `http://localhost:3000/images/${data.imagePath}` : null;
+        return data.imagePath ? `/images/${data.imagePath}` : null;
     } catch (error) {
         // Log and handle errors that occur during the fetch operation
         console.error("Error fetching image:", error);

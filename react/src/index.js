@@ -11,5 +11,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </React.StrictMode>
 );
 
-// Report web vitals to analytics kmmr-backend for performance monitoring
+// Report web vitals to analytics server for performance monitoring
 reportWebVitals();
