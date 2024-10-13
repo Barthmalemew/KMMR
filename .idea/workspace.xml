@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1250c408-cd94-46f0-91dc-47075966c8ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/base.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/server/base.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/image_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/image_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/base.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/base.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/css/main.e6c13ad2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/css/main.e6c13ad2.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/js/453.d1d311ca.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/js/453.d1d311ca.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/js/main.4040f224.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/js/main.4040f224.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/js/main.4040f224.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +90,11 @@
       <recent name="$PROJECT_DIR$/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/public" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/server/src" />
       <recent name="$PROJECT_DIR$/kmmr-backend" />
-      <recent name="$PROJECT_DIR$/kmmr-frontend" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -128,7 +134,7 @@
       <workItem from="1725024332275" duration="513000" />
       <workItem from="1725456367492" duration="989000" />
       <workItem from="1728792858825" duration="240000" />
-      <workItem from="1728793173504" duration="6707000" />
+      <workItem from="1728793173504" duration="8769000" />
     </task>
     <servers />
   </component>
@@ -144,11 +150,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/server/server.js</url>
-          <line>65</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/server/server.js</url>
           <option name="timeStamp" value="2" />

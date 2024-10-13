@@ -15,7 +15,7 @@ gsap.from("#image-card", {
     delay: 0.5
 });
 
-// Animate buttons and ensure they remain visible
+// Animate buttons with staggered appearance using GSAP
 gsap.fromTo(".button-container button",
     {
         opacity: 0,    // Start at opacity 0
@@ -50,7 +50,31 @@ document.querySelectorAll(".button-container button").forEach(button => {
     });
 });
 
-// Function to animate the image card
+// Function to fetch and display the generated image based on mood
+async function generateImage(mood) {
+    console.log(`Button clicked for mood: ${mood}`); // Log the clicked mood for debugging
+
+    try {
+        const response = await fetch(`http://localhost:5000/api/image?mood=${mood}`); // Make request to Express server
+        if (!response.ok) {
+            throw new Error('Failed to fetch image'); // Handle fetch failure
+        }
+
+        const data = await response.json(); // Get JSON response from Express server
+        const imgElement = document.getElementById('generatedImage');
+
+        // Display the fetched image
+        imgElement.src = `data:image/png;base64,${data.imageBase64}`; // Set the image source to the received data
+
+        // Optionally, you could animate the image card again if desired
+        animateImageCard();
+
+    } catch (error) {
+        console.error('Error:', error); // Log any errors encountered
+    }
+}
+
+// Function to animate the image card when a new image is loaded
 function animateImageCard() {
     gsap.from("#image-card", {
         duration: 0.5,
@@ -60,36 +84,4 @@ function animateImageCard() {
     });
 }
 
-// Function to fetch and display the generated image
-async function generateImage(mood) {
-    console.log(`Button clicked for mood: ${mood}`);
-
-    try {
-        const response = await fetch(`http://localhost:5000/api/image?mood=${mood}`);
-        if (!response.ok) {
-            throw new Error('Failed to fetch image');
-        }
-
-        const data = await response.json();
-
-        // Log received data for debugging
-        console.log('Data received:', data);
-
-        const imgElement = document.getElementById('generatedImage');
-
-        // Ensure that imageBase64 is available
-        if (data.imageBase64) {
-            // Update the src attribute with a cache-busting query
-            imgElement.src = `data:image/png;base64,${data.imageBase64}?t=${new Date().getTime()}`;
-
-            // Call the animation function
-            animateImageCard();
-        } else {
-            console.error('Image data is not available in the response.');
-        }
-
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
 

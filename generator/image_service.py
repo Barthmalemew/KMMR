@@ -8,13 +8,13 @@ app = Flask(__name__)
 
 if torch.cuda.is_available():  # For ROCm support on AMD GPUs
     device = "cuda"
-elif torch.backends.mps.is_available():  # For macOS M1/M2 devices, in case you're using them
+elif torch.backends.mps.is_available():  # For macOS M1/M2 devices
     device = "mps"
 else:
     device = "cpu"
 
 # Load the Stable Diffusion model
-model = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4").to("cpu")  # Use "cuda" if GPU is available
+model = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4").to(device)  # Use "cuda" if GPU is available
 
 @app.route('/generate', methods=['POST'])
 def generate_image():
@@ -47,4 +47,4 @@ def generate_image():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001)
+    app.run(host='0.0.0.0', port=5001)  # Make sure this runs on port 5001
