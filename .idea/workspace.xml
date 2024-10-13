@@ -5,59 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1250c408-cd94-46f0-91dc-47075966c8ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7d013e7-4cbf-4dcb-b5b1-7357e8f72048.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7d013e7-4cbf-4dcb-b5b1-7357e8f72048.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/base.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/public/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/components/MoodButtons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/src/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/happy/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/okay/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/images/sad/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/base.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/server/base.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -85,31 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/barthmalemew/Projects/KMMR&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/barthmalemew/Projects/KMMR/server/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.App.js.executor": "Run",
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/barthmalemew/Projects/KMMR",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "discord-application",
+    "ts.external.directory.path": "/home/barthmalemew/Projects/KMMR/server/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -126,6 +85,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/server/src" />
       <recent name="$PROJECT_DIR$/kmmr-backend" />
       <recent name="$PROJECT_DIR$/kmmr-frontend" />
@@ -167,6 +127,8 @@
       <workItem from="1724786210502" duration="284000" />
       <workItem from="1725024332275" duration="513000" />
       <workItem from="1725456367492" duration="989000" />
+      <workItem from="1728792858825" duration="240000" />
+      <workItem from="1728793173504" duration="6707000" />
     </task>
     <servers />
   </component>
@@ -189,7 +151,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/server/server.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

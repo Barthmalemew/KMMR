@@ -4,102 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kailee's Magic Mood Ring</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #ff9afd 0%, #c4d1fa 100%);
-            color: #333;
-            text-align: center;
-            padding: 20px;
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            color: #fff;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
-        button {
-            padding: 12px 24px;
-            margin: 10px;
-            font-size: 18px;
-            border: none;
-            border-radius: 8px;
-            background-color: #fff;
-            color: #333;
-            cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s, background-color 0.2s;
-        }
-
-        button:hover {
-            background-color: #f2f2f2;
-            transform: scale(1.05);
-        }
-
-        #image-card {
-            background-color: #fff;
-            border-radius: 12px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin-top: 30px;
-            max-width: 400px;
-            width: 100%;
-        }
-
-        img {
-            margin-top: 20px;
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2em;
-            }
-            button {
-                padding: 10px 18px;
-                font-size: 16px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
 </head>
 <body>
 <h1>Kailee's Magic Mood Ring</h1>
-<button onclick="generateImage('happy')">Happy</button>
-<button onclick="generateImage('okay')">Okay</button>
-<button onclick="generateImage('sad')">Sad</button>
-<button onclick="generateImage('excited')">Excited</button>
-<button onclick="generateImage('angry')">Angry</button>
-<button onclick="generateImage('relaxed')">Relaxed</button>
 
+<!-- Image card with the placeholder image -->
 <div id="image-card">
-    <img id="generatedImage" src="" alt="Generated Image" />
+    <img id="generatedImage" src="base.jpg" alt="Generated Image" />
 </div>
 
-<script>
-    async function generateImage(mood) {
-        try {
-            const response = await fetch(`http://localhost:5000/api/image?mood=${mood}`);
-            if (!response.ok) {
-                throw new Error('Failed to fetch image');
-            }
-            const data = await response.json();
-            const imgElement = document.getElementById('generatedImage');
-            imgElement.src = `data:image/png;base64,${data.imageBase64}`;
-        } catch (error) {
-            console.error('Error:', error);
-        }
-    }
-</script>
+<!-- Buttons placed below the image -->
+<div class="button-container">
+    <button onclick="generateImage('happy')">Happy</button>
+    <button onclick="generateImage('okay')">Okay</button>
+    <button onclick="generateImage('sad')">Sad</button>
+    <button onclick="generateImage('excited')">Excited</button>
+    <button onclick="generateImage('angry')">Angry</button>
+    <button onclick="generateImage('relaxed')">Relaxed</button>
+</div>
+
+<script src="scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 50%, #ff9a9e 100%);
+    color: #ffffff; /* Soft white for body text */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* Title styling */
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2.8em;
+    color: #ffffff; /* Soft white font color */
+    padding: 20px 35px;
+    border-radius: 50px; /* Match button border radius */
+    background: linear-gradient(135deg, #ff9aad 0%, #ff6f91 100%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Consistent shadow */
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+/* Button styling */
+button {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #ff9aad 0%, #ff6f91 100%);
+    color: #f0f0f0; /* Soft white font for buttons */
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Button shadow */
+    transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background: linear-gradient(135deg, #ff7d8c 0%, #ff5671 100%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced hover shadow */
+}
+
+/* Image card styling without rounded corners for the image */
+#image-card {
+    background-color: #ffffff;  /* White background for contrast */
+    padding: 0;
+    margin-top: 20px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+
+    /* Gradient border for visual enhancement */
+    border: 8px solid transparent;
+    background-image: linear-gradient(#ffffff, #ffffff),
+    linear-gradient(135deg, #ff9aad 0%, #ff6f91 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+/* Image styling without border-radius */
+img {
+    width: 100%;
+    height: auto;                /* Keep image aspect ratio */
+    object-fit: cover;           /* Cover the container without stretching */
+    display: block;              /* Avoid inline spacing */
+    border: none;                /* No border on the image itself */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.4em;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
