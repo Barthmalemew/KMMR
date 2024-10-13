@@ -1,0 +1,16 @@
+/* Simple styling for the game */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+}
+
+canvas {
+    border: 2px solid #ff9aad;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+

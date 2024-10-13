@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1250c408-cd94-46f0-91dc-47075966c8ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/public/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/cat_hopper/WhiteCat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/cat_hopper/catHopperStyles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/cat_hopper/flappyBird.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/cat_hopper/flappyBird.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/image_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator/image_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/base.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/base.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/static/css/main.e6c13ad2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/static/css/main.e6c13ad2.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/static/js/453.d1d311ca.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/static/js/453.d1d311ca.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/static/js/main.4040f224.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/static/js/main.4040f224.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/static/js/main.4040f224.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -52,8 +46,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
     "Node.js.App.js.executor": "Run",
+    "Node.js.scripts.js.executor": "Run",
     "RunOnceActivity.OpenDatabaseViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -64,6 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "discord-application",
     "ts.external.directory.path": "/home/barthmalemew/Projects/KMMR/server/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -90,11 +87,11 @@
       <recent name="$PROJECT_DIR$/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/public" />
       <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/cat_hopper" />
+      <recent name="$PROJECT_DIR$/server/public" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/server/src" />
-      <recent name="$PROJECT_DIR$/kmmr-backend" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -134,7 +131,8 @@
       <workItem from="1725024332275" duration="513000" />
       <workItem from="1725456367492" duration="989000" />
       <workItem from="1728792858825" duration="240000" />
-      <workItem from="1728793173504" duration="8769000" />
+      <workItem from="1728793173504" duration="8807000" />
+      <workItem from="1728839786948" duration="5565000" />
     </task>
     <servers />
   </component>
