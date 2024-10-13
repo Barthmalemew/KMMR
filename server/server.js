@@ -1,60 +1,56 @@
 const express = require('express');
 const cors = require('cors');
-const { Pool } = require('pg');
-const path = require('path');
+const axios = require('axios');
 
+// Initialize the Express app
 const app = express();
 const port = 5000;
 
-// Database connection parameters
-const dbConfig = {
-    user: 'postgres',
-    host: 'localhost',
-    database: 'mood_cats',
-    port: 5432
-};
-
-// Create a PostgreSQL connection pool
-const pool = new Pool(dbConfig);
-
-// Use CORS middleware
+// Use CORS and JSON middleware
 app.use(cors());
+app.use(express.json());
 
-// Serve static files from the React app's build directory
-app.use(express.static(path.join(__dirname, 'build')));
-
-// Fetches a random image path for a specific mood from the database
-async function getRandomImagePathForMood(mood) {
-    const sql = "SELECT filename FROM images WHERE mood = $1 ORDER BY RANDOM() LIMIT 1";
-    const result = await pool.query(sql, [mood]);
-    return result.rows.length > 0 ? result.rows[0].filename : null;
-}
-
-// Route handler for handling GET requests for mood images
+// Define your routes
 app.get('/api/image', async (req, res) => {
     try {
-        const mood = req.query.mood.toLowerCase(); // Convert mood to lowercase
+        const mood = req.query.mood.toLowerCase();
         if (!mood) {
             return res.status(400).json({ error: 'Mood parameter is missing' });
         }
-        const imagePath = await getRandomImagePathForMood(mood);
-        if (!imagePath) {
-            return res.status(404).json({ error: 'Image not found for the specified mood' });
+
+        // Define custom prompts based on the mood
+        let prompt = 'A cute cat';  // Default prompt
+        if (mood === 'happy') {
+            prompt = 'A joyful and playful kitten';
+        } else if (mood === 'okay') {
+            prompt = 'A calm and content cat';
+        } else if (mood === 'sad') {
+            prompt = 'A melancholic and thoughtful cat';
+        } else if (mood === 'excited') {
+            prompt = 'A cat excitedly playing with a ball of yarn';
+        } else if (mood === 'angry') {
+            prompt = 'An angry cat with fur standing on end';
+        } else if (mood === 'relaxed') {
+            prompt = 'A cat peacefully sleeping in a sunbeam';
         }
-        // Send the image path as a JSON response
-        res.json({ imagePath });
+
+        // Call the Python microservice to generate the image with the custom prompt
+        const response = await axios.post('http://localhost:5001/generate', {
+            prompt: prompt
+        });
+
+        const imageBase64 = response.data.image_base64;
+
+        if (!imageBase64) {
+            return res.status(500).json({ error: 'Failed to generate image' });
+        }
+
+        // Send the base64 image back to the client
+        res.json({ imageBase64 });
     } catch (error) {
-        console.error('Error handling request:', error);
+        console.error('Error generating image:', error);
         res.status(500).json({ error: 'Internal server error' });
     }
-});
-
-// Serve static files from the images directory
-app.use('/images', express.static(path.join(__dirname, 'images')));
-
-// Serve the React app for all other routes
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 // Start the server

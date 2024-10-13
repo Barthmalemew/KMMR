@@ -4,7 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1250c408-cd94-46f0-91dc-47075966c8ea" name="Changes" comment="" />
+    <list default="true" id="1250c408-cd94-46f0-91dc-47075966c8ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7d013e7-4cbf-4dcb-b5b1-7357e8f72048.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7d013e7-4cbf-4dcb-b5b1-7357e8f72048.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/public/base.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/public/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/components/MoodButtons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/src/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/happy/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/okay/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/images/sad/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,8 +89,10 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.App.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/barthmalemew/Projects/KMMR&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -44,7 +100,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/barthmalemew/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/barthmalemew/Projects/KMMR/server/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -54,12 +110,23 @@
     ]
   }
 }</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/server/src" />
       <recent name="$PROJECT_DIR$/kmmr-backend" />
       <recent name="$PROJECT_DIR$/kmmr-frontend" />
     </key>
@@ -67,7 +134,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
       </set>
     </attachedChunks>
   </component>
@@ -91,13 +158,41 @@
       <workItem from="1717427719950" duration="6905000" />
       <workItem from="1717780721278" duration="1076000" />
       <workItem from="1717897972877" duration="601000" />
+      <workItem from="1724350840518" duration="676000" />
+      <workItem from="1724354320047" duration="11000" />
+      <workItem from="1724354332796" duration="1591000" />
+      <workItem from="1724774640611" duration="5521000" />
+      <workItem from="1724781786425" duration="38000" />
+      <workItem from="1724781832128" duration="3631000" />
+      <workItem from="1724786210502" duration="284000" />
+      <workItem from="1725024332275" duration="513000" />
+      <workItem from="1725456367492" duration="989000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/server.js</url>
+          <line>65</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/server.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
