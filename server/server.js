@@ -6,19 +6,27 @@ const app = express();
 const port = 5000;
 
 // Serve static files from the "public" directory located inside "server"
-app.use(express.static(path.join(__dirname, 'public'))); // Fixed this path
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Serve static files from the "cat_hopper" directory located inside "server"
+// Serve static files from the "cat_hopper" directory
 app.use('/cat_hopper', express.static(path.join(__dirname, 'cat_hopper')));
+
+// Serve static files from the "otter_cleanup" directory
+app.use('/otter_cleanup', express.static(path.join(__dirname, 'otter_cleanup')));
 
 // Route to serve the main page (index.html) from the "public" directory
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/index.html')); // Fixed this path
+    res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
-// Route to serve the Cat Hopper game (flappyBird.html) from "cat_hopper"
+// Route to serve the Cat Hopper game
 app.get('/cat_hopper', (req, res) => {
-    res.sendFile(path.join(__dirname, 'cat_hopper/flappyBird.html')); // Fixed this path
+    res.sendFile(path.join(__dirname, 'cat_hopper/flappyBird.html'));
+});
+
+// Route to serve the Otter Cleanup game
+app.get('/otter_cleanup', (req, res) => {
+    res.sendFile(path.join(__dirname, 'otter_cleanup/otterCleanup.html'));
 });
 
 // Image generation API
@@ -29,7 +37,6 @@ app.get('/api/image', async (req, res) => {
             return res.status(400).json({ error: 'Mood parameter is missing' });
         }
 
-        // Define custom prompts based on the mood
         let prompt = 'A cute cat';  // Default prompt
         if (mood === 'happy') {
             prompt = 'A joyful and playful kitten';
@@ -45,18 +52,15 @@ app.get('/api/image', async (req, res) => {
             prompt = 'A cat peacefully sleeping in a sunbeam';
         }
 
-        // Call the Python microservice to generate the image with the custom prompt
         const response = await axios.post('http://localhost:5001/generate', {
             prompt: prompt
         });
 
         const imageBase64 = response.data.image_base64;
-
         if (!imageBase64) {
             return res.status(500).json({ error: 'Failed to generate image' });
         }
 
-        // Send the base64 image back to the client
         res.json({ imageBase64 });
     } catch (error) {
         console.error('Error generating image:', error);
@@ -64,7 +68,7 @@ app.get('/api/image', async (req, res) => {
     }
 });
 
-// Start the server on port 5000
+// Start the server
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
