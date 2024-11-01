@@ -1,4 +1,4 @@
-# Kailee's Magic Mood Ring
+# Kevin's Magic Mood Ring
 
 ## Todo List
 - Login Page
